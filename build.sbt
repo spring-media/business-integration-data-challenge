@@ -6,6 +6,9 @@ organizationHomepage := Some(url("https://www.axelspringer.com"))
 
 version := "1.0"
 
-scalaVersion := "2.13.11"
+scalaVersion := "2.13.15"
 
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.4.1"
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-sql" % "3.5.3"  excludeAll(
+    ExclusionRule(organization = "org.apache.avro"))
+)
