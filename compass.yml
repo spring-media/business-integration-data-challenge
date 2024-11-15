@@ -1,0 +1,25 @@
+name: business-integration-data-challenge
+id: ari:cloud:compass:96672a96-ddb0-4fd2-8024-7d59566f084f:component/4b8999c8-ef61-40f6-a1c4-e0d3cbf3f9c0/1f272187-8bf4-4ce5-ae0b-b1f69497aaf9
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/spring-media/business-integration-data-challenge
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Data encrypted at rest
+    type: text
+    value: null
+  - name: Data encrypted in transit
+    type: text
+    value: null
+  - name: Last security review
+    type: text
+    value: null
